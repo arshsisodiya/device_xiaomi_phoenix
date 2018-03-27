@@ -33,6 +33,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1
 
+# Graphics
+PRODUCT_PRODUCT_PROPERTIES += \
+    vendor.display.disable_rotator_downscale=1
+
 # Priv-app permission
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log
