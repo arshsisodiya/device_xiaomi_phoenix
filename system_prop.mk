@@ -10,3 +10,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.cpurend.vsync=false
+
+# Zygote
+PRODUCT_PROPERTY_OVERRIDES += \
+     persist.device_config.runtime_native.usap_pool_enabled=true
