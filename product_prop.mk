@@ -37,6 +37,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1
 
+# LMKD
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.low_ram=false \
+    ro.lmk.log_stats=true
+
 # Graphics
 PRODUCT_PRODUCT_PROPERTIES += \
     vendor.display.disable_rotator_downscale=1
