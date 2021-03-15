@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "github",
+    "repository": "chiru2000/vendor_xiaomi_phoenix",
+    "target_path": "vendor/xiaomi/phoenix",
+    "branch": "a11-vendor"
+  }
+]
