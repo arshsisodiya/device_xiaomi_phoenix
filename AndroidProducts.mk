@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_phoenix.mk
+    $(LOCAL_DIR)/palladium_phoenix.mk
+
+COMMON_LUNCH_CHOICES := \
+    palladium_phoenix-user \
+    palladium_phoenix-userdebug \
+    palladium_phoenix-eng
