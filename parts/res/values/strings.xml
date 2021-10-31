@@ -73,9 +73,6 @@
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
 
-    <!-- QS tile title -->
-    <string name="dirac_qs_tile_title">POCO Sound Enhancer</string>
-
     <!-- LCD Features -->
     <string name="lcd_features_title">LCD features</string>
     <string name="lcd_features_summary">High Brightness Mode, CABC</string>
